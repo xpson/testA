@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import wx
 def load(event):
     file=open(filename.GetValue())
@@ -9,7 +10,7 @@ def save(event):
     file.close()
 
 app = wx.App()
-win = wx.Frame(None, title="OmegaLoadGenerator V1.0",size=(410,335))
+win = wx.Frame(None, title=u"Omega贷款生成器V1.0(from 二部QA)",size=(410,335))
 bkg=wx.Panel(win)
 
 
