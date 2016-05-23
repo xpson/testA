@@ -1,7 +1,6 @@
 import xlrd
 import xlwt
-from datetime
-
+import datetime
 
 def testXlrd(filename):
     book = xlrd.open_workbook(filename)
